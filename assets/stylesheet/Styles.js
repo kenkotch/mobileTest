@@ -31,5 +31,21 @@ module.exports = StyleSheet.create({
     padding: 20,
     alignItems: 'center',
     borderRadius: 10
+  },
+  ralewayLight: {
+    fontFamily: 'Raleway-Light',
+    color: 'black'
+  },
+  ralewayMedium: {
+    fontFamily: 'Raleway-Medium',
+    color: 'black'
+  },
+  ralewayReg: {
+    fontFamily: 'Raleway-Regular',
+    color: 'black'
+  },
+  ralewayBlack: {
+    fontFamily: 'Raleway-Black',
+    color: 'black'
   }
 })

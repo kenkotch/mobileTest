@@ -12,7 +12,6 @@ import { StackNavigator } from 'react-navigation'
 styles = require('../../assets/stylesheet/Styles')
 
 export default class Login extends Component {
-
   constructor(props) {
     super(props)
     this.state={
@@ -37,6 +36,7 @@ export default class Login extends Component {
   }
 
   render() {
+    console.disableYellowBox = true
     return (
       <KeyboardAvoidingView
         behavior='padding'
@@ -64,7 +64,7 @@ export default class Login extends Component {
           style={ styles.btn }
           onPress={ this.login }
         >
-        <Text> Login </Text>
+        <Text style={ styles.ralewayReg }> Login </Text>
       </TouchableOpacity>
 
         </View>
