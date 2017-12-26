@@ -27,7 +27,7 @@ module.exports = StyleSheet.create({
   },
   btn: {
     alignSelf: 'stretch',
-    backgroundColor: '#01c853',
+    backgroundColor: '#d9ae04',
     padding: 20,
     alignItems: 'center',
     borderRadius: 10
